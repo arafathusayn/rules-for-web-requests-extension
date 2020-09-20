@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "Rules for Web Requests",
+  "short_name": "rules-for-web-requests",
+  "version": "0.1",
+  "description": "Set your own rules for web requests",
+  "author": "Arafat Husayn <hello@arafat.dev>",
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+  "background": {
+    "scripts": ["config.js", "background.js"]
+  }
+}
